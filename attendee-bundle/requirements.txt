@@ -1,0 +1,7 @@
+# Breaking Bad Crypto — attendee dependencies
+# Install into a virtual environment:  pip install -r requirements.txt
+# You only run the lab *clients*; the instructor hosts the servers.
+
+requests>=2.31         # every lab client talks to the instructor's server over HTTP
+pycryptodome>=3.20     # AES/RSA/hashing used by the JWT helper and the ECB-penguin demo
+pillow>=10.0           # the ECB-penguin demo's --gray option
